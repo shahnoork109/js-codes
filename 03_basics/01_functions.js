@@ -48,4 +48,17 @@ function handleObj(anyObject){
     console.log(`this is ${anyObject.name} and age is ${anyObject.age}`);
 }
 
-handleObj(user)
+// handleObj(user)
+
+handleObj({
+    name: "sam",
+    age: 67
+})
+
+
+const myNewArr = [200,400,500,300]
+function getSecondvalue(getarray){
+    return getarray[1]
+}
+// console.log(getSecondvalue(myNewArr));
+console.log(getSecondvalue([100,200,300,400]));

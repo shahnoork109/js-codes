@@ -30,3 +30,22 @@ if (Object.keys(emptyObj).length===0) {
     console.log("object is empty");
     
 }
+
+
+//nullish coalescing operator ??  : null undefined
+let val1
+// val1 = 5 ?? 10
+// val1 = null ?? 10
+val1 = undefined ?? 10
+
+console.log(val1);
+
+
+
+//ternary operator 
+// condition ? true : false
+
+const iceprice = 100
+iceprice <= 80  ? console.log("value is less than 80") : console.log("value is greater than 80");
+
+
